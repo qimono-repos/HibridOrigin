@@ -25,9 +25,9 @@
 
 @code {
     private List<TodoModel> todos = new();
-    private TodoModel todo = new();
+    private TodoModel todo = new TodoModel();
     private void AddTodo(){
         todos.Add(todo);
-        todo = new();
+        todo = new TodoModel();
     }
 }
